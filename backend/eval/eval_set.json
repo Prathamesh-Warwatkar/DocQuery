@@ -1,0 +1,326 @@
+[
+  {
+    "id": "a01",
+    "question": "How long does the initial contract last before it renews?",
+    "answerable": true,
+    "doc": "Master Services Agreement",
+    "heading": "Term and Renewal",
+    "answer_any": [
+      "thirty-six months"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a02",
+    "question": "How much advance notice is needed to stop the contract from rolling over?",
+    "answerable": true,
+    "doc": "Master Services Agreement",
+    "heading": "Term and Renewal",
+    "answer_any": [
+      "ninety days"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a03",
+    "question": "When must invoices be settled?",
+    "answerable": true,
+    "doc": "Master Services Agreement",
+    "heading": "Fees and Payment",
+    "answer_any": [
+      "forty-five days"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a04",
+    "question": "What interest applies to overdue payments?",
+    "answerable": true,
+    "doc": "Master Services Agreement",
+    "heading": "Fees and Payment",
+    "answer_any": [
+      "one and a half percent"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a05",
+    "question": "Can the provider cut off access if the customer does not pay?",
+    "answerable": true,
+    "doc": "Master Services Agreement",
+    "heading": "Termination for Cause",
+    "answer_any": [
+      "suspend access"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a06",
+    "question": "What is the maximum amount either side can owe for damages?",
+    "answerable": true,
+    "doc": "Master Services Agreement",
+    "heading": "Limitation of Liability",
+    "answer_any": [
+      "twelve months",
+      "capped"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a07",
+    "question": "Where are disputes resolved?",
+    "answerable": true,
+    "doc": "Master Services Agreement",
+    "heading": "Governing Law",
+    "answer_any": [
+      "arbitration"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a08",
+    "question": "What counts as secret information under the NDA?",
+    "answerable": true,
+    "doc": "Mutual Non-Disclosure Agreement",
+    "heading": "Definition of Confidential Information",
+    "answer_any": [
+      "non-public"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a09",
+    "question": "Can I tell my lawyer about the confidential material?",
+    "answerable": true,
+    "doc": "Mutual Non-Disclosure Agreement",
+    "heading": "Permitted Disclosure",
+    "answer_any": [
+      "advisers",
+      "need to know"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a10",
+    "question": "For how many years does the secrecy obligation last?",
+    "answerable": true,
+    "doc": "Mutual Non-Disclosure Agreement",
+    "heading": "Duration of Confidentiality",
+    "answer_any": [
+      "five years"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a11",
+    "question": "What must be done with confidential documents when asked to hand them back?",
+    "answerable": true,
+    "doc": "Mutual Non-Disclosure Agreement",
+    "heading": "Return or Destruction",
+    "answer_any": [
+      "ten business days",
+      "destroy"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a12",
+    "question": "Can the owner of the secrets get a court order to stop misuse?",
+    "answerable": true,
+    "doc": "Mutual Non-Disclosure Agreement",
+    "heading": "Remedies",
+    "answer_any": [
+      "injunctive"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a13",
+    "question": "Who is the controller and who is the processor?",
+    "answerable": true,
+    "doc": "Data Processing Addendum",
+    "heading": "Roles of the Parties",
+    "answer_any": [
+      "controller"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a14",
+    "question": "How much notice is given before a new subcontractor is added?",
+    "answerable": true,
+    "doc": "Data Processing Addendum",
+    "heading": "Sub-processors",
+    "answer_any": [
+      "thirty days"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a15",
+    "question": "What encryption standards protect stored personal data?",
+    "answerable": true,
+    "doc": "Data Processing Addendum",
+    "heading": "Security Measures",
+    "answer_any": [
+      "aes-256"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a16",
+    "question": "How quickly must a data leak be reported to the customer?",
+    "answerable": true,
+    "doc": "Data Processing Addendum",
+    "heading": "Breach Notification",
+    "answer_any": [
+      "forty-eight hours"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a17",
+    "question": "How long until customer data is erased after the contract ends?",
+    "answerable": true,
+    "doc": "Data Processing Addendum",
+    "heading": "Data Retention and Deletion",
+    "answer_any": [
+      "ninety days"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a18",
+    "question": "What availability percentage is guaranteed?",
+    "answerable": true,
+    "doc": "Service Level Agreement",
+    "heading": "Uptime Commitment",
+    "answer_any": [
+      "99.9"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a19",
+    "question": "How fast does support respond when the platform is down?",
+    "answerable": true,
+    "doc": "Service Level Agreement",
+    "heading": "Support Response Times",
+    "answer_any": [
+      "thirty minutes"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a20",
+    "question": "What refund applies if uptime drops below 99 percent?",
+    "answerable": true,
+    "doc": "Service Level Agreement",
+    "heading": "Service Credits",
+    "answer_any": [
+      "twenty-five percent"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a21",
+    "question": "When does planned downtime for upgrades occur?",
+    "answerable": true,
+    "doc": "Service Level Agreement",
+    "heading": "Scheduled Maintenance",
+    "answer_any": [
+      "sundays"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a22",
+    "question": "Can staff work from home after joining?",
+    "answerable": true,
+    "doc": "Remote Work Policy",
+    "heading": "Eligibility",
+    "answer_any": [
+      "six months"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a23",
+    "question": "What is the home office allowance?",
+    "answerable": true,
+    "doc": "Remote Work Policy",
+    "heading": "Equipment",
+    "answer_any": [
+      "20,000"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a24",
+    "question": "What should I do if my laptop is stolen?",
+    "answerable": true,
+    "doc": "Remote Work Policy",
+    "heading": "Information Security at Home",
+    "answer_any": [
+      "two hours"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a25",
+    "question": "How often are penetration tests required?",
+    "answerable": true,
+    "doc": "Vendor Security Policy",
+    "heading": "Penetration Testing",
+    "answer_any": [
+      "annually"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "a26",
+    "question": "How long are privileged production access grants valid?",
+    "answerable": true,
+    "doc": "Vendor Security Policy",
+    "heading": "Access Control",
+    "answer_any": [
+      "eight hours"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "a27",
+    "question": "How soon must vendors disclose a confirmed security incident?",
+    "answerable": true,
+    "doc": "Vendor Security Policy",
+    "heading": "Incident Response",
+    "answer_any": [
+      "twenty-four hours"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "u01",
+    "question": "What is the parental leave policy?",
+    "answerable": false,
+    "split": "dev"
+  },
+  {
+    "id": "u02",
+    "question": "Which cloud region hosts the production database?",
+    "answerable": false,
+    "split": "test"
+  },
+  {
+    "id": "u03",
+    "question": "What is the chief executive's salary?",
+    "answerable": false,
+    "split": "dev"
+  },
+  {
+    "id": "u04",
+    "question": "Does the agreement cover trademark licensing in Japan?",
+    "answerable": false,
+    "split": "test"
+  }
+]

@@ -1,0 +1,158 @@
+{
+  "all": {
+    "retrieval": {
+      "vector": {
+        "n": 27,
+        "hit@1": 0.4074074074074074,
+        "hit@3": 0.5925925925925926,
+        "hit@5": 0.7407407407407407,
+        "mrr": 0.5271604938271605,
+        "p50_ms": 2.577,
+        "p95_ms": 3.26
+      },
+      "keyword": {
+        "n": 27,
+        "hit@1": 0.5555555555555556,
+        "hit@3": 0.7037037037037037,
+        "hit@5": 0.8518518518518519,
+        "mrr": 0.6506172839506172,
+        "p50_ms": 0.424,
+        "p95_ms": 0.865
+      },
+      "hybrid": {
+        "n": 27,
+        "hit@1": 0.5555555555555556,
+        "hit@3": 0.7407407407407407,
+        "hit@5": 0.8888888888888888,
+        "mrr": 0.667283950617284,
+        "p50_ms": 2.237,
+        "p95_ms": 3.339
+      },
+      "hybrid_rerank": {
+        "n": 27,
+        "hit@1": 0.6296296296296297,
+        "hit@3": 0.7407407407407407,
+        "hit@5": 0.9259259259259259,
+        "mrr": 0.7197530864197531,
+        "p50_ms": 3.91,
+        "p95_ms": 5.589
+      }
+    },
+    "answers": {
+      "vector": {
+        "answerable": 27,
+        "answered": 11,
+        "false_refusal_rate": 0.5925925925925926,
+        "answer_contains_key_fact": 0.2962962962962963,
+        "citation_hits_gold": 0.3333333333333333,
+        "unanswerable": 4,
+        "correctly_refused": 1.0
+      },
+      "keyword": {
+        "answerable": 27,
+        "answered": 17,
+        "false_refusal_rate": 0.37037037037037035,
+        "answer_contains_key_fact": 0.5555555555555556,
+        "citation_hits_gold": 0.5555555555555556,
+        "unanswerable": 4,
+        "correctly_refused": 1.0
+      },
+      "hybrid": {
+        "answerable": 27,
+        "answered": 15,
+        "false_refusal_rate": 0.4444444444444444,
+        "answer_contains_key_fact": 0.4074074074074074,
+        "citation_hits_gold": 0.4444444444444444,
+        "unanswerable": 4,
+        "correctly_refused": 1.0
+      },
+      "hybrid_rerank": {
+        "answerable": 27,
+        "answered": 20,
+        "false_refusal_rate": 0.2592592592592593,
+        "answer_contains_key_fact": 0.5185185185185185,
+        "citation_hits_gold": 0.5555555555555556,
+        "unanswerable": 4,
+        "correctly_refused": 1.0
+      }
+    }
+  },
+  "test": {
+    "retrieval": {
+      "vector": {
+        "n": 13,
+        "hit@1": 0.38461538461538464,
+        "hit@3": 0.5384615384615384,
+        "hit@5": 0.6923076923076923,
+        "mrr": 0.48333333333333334,
+        "p50_ms": 1.635,
+        "p95_ms": 1.755
+      },
+      "keyword": {
+        "n": 13,
+        "hit@1": 0.46153846153846156,
+        "hit@3": 0.6153846153846154,
+        "hit@5": 0.7692307692307693,
+        "mrr": 0.5512820512820513,
+        "p50_ms": 0.411,
+        "p95_ms": 0.693
+      },
+      "hybrid": {
+        "n": 13,
+        "hit@1": 0.5384615384615384,
+        "hit@3": 0.6923076923076923,
+        "hit@5": 0.7692307692307693,
+        "mrr": 0.6217948717948718,
+        "p50_ms": 3.609,
+        "p95_ms": 3.735
+      },
+      "hybrid_rerank": {
+        "n": 13,
+        "hit@1": 0.5384615384615384,
+        "hit@3": 0.6153846153846154,
+        "hit@5": 0.8461538461538461,
+        "mrr": 0.6141025641025641,
+        "p50_ms": 3.003,
+        "p95_ms": 4.195
+      }
+    },
+    "answers": {
+      "vector": {
+        "answerable": 13,
+        "answered": 3,
+        "false_refusal_rate": 0.7692307692307692,
+        "answer_contains_key_fact": 0.23076923076923078,
+        "citation_hits_gold": 0.23076923076923078,
+        "unanswerable": 2,
+        "correctly_refused": 1.0
+      },
+      "keyword": {
+        "answerable": 13,
+        "answered": 7,
+        "false_refusal_rate": 0.46153846153846156,
+        "answer_contains_key_fact": 0.46153846153846156,
+        "citation_hits_gold": 0.46153846153846156,
+        "unanswerable": 2,
+        "correctly_refused": 1.0
+      },
+      "hybrid": {
+        "answerable": 13,
+        "answered": 7,
+        "false_refusal_rate": 0.46153846153846156,
+        "answer_contains_key_fact": 0.38461538461538464,
+        "citation_hits_gold": 0.38461538461538464,
+        "unanswerable": 2,
+        "correctly_refused": 1.0
+      },
+      "hybrid_rerank": {
+        "answerable": 13,
+        "answered": 9,
+        "false_refusal_rate": 0.3076923076923077,
+        "answer_contains_key_fact": 0.38461538461538464,
+        "citation_hits_gold": 0.38461538461538464,
+        "unanswerable": 2,
+        "correctly_refused": 1.0
+      }
+    }
+  }
+}
